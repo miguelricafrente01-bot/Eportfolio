@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" role="img" aria-label="Student portfolio illustration">
+  <rect x="48" y="96" width="544" height="320" rx="48" ry="48" fill="#dbe8ff"/>
+  <path d="M144 160h352v64H144z" fill="#fff"/>
+  <path d="M144 264h352v48H144z" fill="#fff"/>
+  <path d="M144 344h240v48H144z" fill="#fff"/>
+  <circle cx="400" cy="224" r="32" fill="#2d6cdf"/>
+  <path d="M344 320h112a16 16 0 0 1 16 16v24H328v-24a16 16 0 0 1 16-16z" fill="#2d6cdf"/>
+  <path d="M224 208h32v160h-32z" fill="#2d6cdf"/>
+</svg>

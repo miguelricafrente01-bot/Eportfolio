@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edu Portfolio | Register</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="brand"><h1>EduPortfolio</h1></div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+      <a href="register.html" class="active">Register</a>
+    </nav>
+  </header>
+
+  <main id="main" class="page-content">
+    <section class="page-hero">
+      <h2>Register</h2>
+      <p>Create your account with a valid email address and a secure password.</p>
+    </section>
+
+    <section class="form-section">
+      <form id="register-form" novalidate>
+        <div class="form-group">
+          <label for="register-name">Full Name</label>
+          <input type="text" id="register-name" required />
+        </div>
+        <div class="form-group">
+          <label for="register-email">Email</label>
+          <input type="email" id="register-email" required />
+        </div>
+        <div class="form-group">
+          <label for="register-password">Password</label>
+          <input type="password" id="register-password" required />
+        </div>
+        <div class="form-group">
+          <label for="register-otp">OTP Code</label>
+          <input type="text" id="register-otp" maxlength="6" />
+        </div>
+        <button type="button" id="register-send-otp" class="button secondary">Send OTP</button>
+        <button type="submit" class="button">Register</button>
+        <p id="register-feedback" class="form-feedback"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Edu Portfolio | Register Page</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
