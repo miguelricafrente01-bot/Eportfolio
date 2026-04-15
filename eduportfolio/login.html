@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edu Portfolio | Login</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">EduPortfolio</a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="register.html" class="button secondary">Register</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">Menu</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-heading">
+      <h1>Login</h1>
+      <p>Use your email, password, and OTP to sign in.</p>
+    </section>
+
+    <section class="auth-card">
+      <form id="login-form" novalidate>
+        <div class="form-group">
+          <label for="login-email">Email</label>
+          <input type="email" id="login-email" required />
+        </div>
+        <div class="form-group">
+          <label for="login-password">Password</label>
+          <input type="password" id="login-password" required />
+        </div>
+        <div class="form-group">
+          <label for="login-otp">OTP Code</label>
+          <input type="text" id="login-otp" maxlength="6" />
+        </div>
+        <button type="button" id="send-otp" class="button secondary">Send OTP</button>
+        <button type="submit" class="button">Login</button>
+        <p id="login-feedback" class="form-feedback"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 EduPortfolio</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

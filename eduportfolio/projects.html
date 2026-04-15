@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduPortfolio | Projects</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">EduPortfolio</a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html" class="button secondary">Login</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">Menu</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-heading">
+      <h1>Projects Library</h1>
+      <p>Browse a curated set of interactive projects demonstrating structure, DOM, and deployment skills.</p>
+    </section>
+
+    <section class="filter-bar">
+      <button class="filter-button active" data-filter="all">All</button>
+      <button class="filter-button" data-filter="web">Web</button>
+      <button class="filter-button" data-filter="ui">UI</button>
+      <button class="filter-button" data-filter="interactive">Interactive</button>
+    </section>
+
+    <section class="project-grid" id="project-grid">
+      <article class="project-card" data-category="web">
+        <h3>Responsive Landing Page</h3>
+        <p>A clean educational landing page designed for mobile and desktop.</p>
+      </article>
+      <article class="project-card" data-category="interactive">
+        <h3>Interactive Contact Form</h3>
+        <p>Form validation and success feedback with JavaScript DOM updates.</p>
+      </article>
+      <article class="project-card" data-category="ui">
+        <h3>Portfolio UI Layout</h3>
+        <p>Modern navigation, cards, and responsive styling using CSS grid.</p>
+      </article>
+      <article class="project-card" data-category="web interactive">
+        <h3>OTP Login Simulation</h3>
+        <p>Login and registration logic with OTP verification and input validation.</p>
+      </article>
+      <article class="project-card hidden" data-category="web">
+        <h3>Deployment Setup</h3>
+        <p>Server-ready file structure with caching and security rules.</p>
+      </article>
+      <article class="project-card hidden" data-category="interactive">
+        <h3>Section Toggle Interface</h3>
+        <p>Show/hide content sections with a button-driven DOM toggle.</p>
+      </article>
+    </section>
+
+    <div class="more-action">
+      <button id="show-more-projects" class="button secondary">Show More Projects</button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 EduPortfolio. Built for educational deployment.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
